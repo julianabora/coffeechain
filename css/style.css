@@ -18481,7 +18481,7 @@ background: #fff;
     border: none;
     font-weight: bold;
     color: #1b4934;
-        line-height: 40px;
+ 
 }
 
 
@@ -18981,7 +18981,13 @@ header.transparent .container{ padding-left: 15px; padding-right: 15px; max-widt
 .logo-b {width: 350px;}
 
 #cadastre-se p{width: 90%;margin: 5px auto 30px;}
+
+
+.bts-ini .btn-light {line-height: 40px;}
     }
+
+
+@media(width: 1024px){ #hero-slider .jarallax.no-top-md.no-bottom{ padding-top:80px !important;  } }
   
 
 @media(max-width: 991px){ 
