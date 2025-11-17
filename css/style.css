@@ -83,6 +83,10 @@ body {
     word-spacing: 0px;
 }
 
+
+html, body {padding: 0; 
+    margin:0; overflow-x: hidden;}
+
 html.no-scroll,
 body.no-scroll {
     overflow: hidden;
@@ -18930,19 +18934,47 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 1) 23%, rgba(0, 0, 0, 0.05) 100
     }
 
 
+@media(max-width: 1300px){  
 
+.chip.process{width: 100%;}
 
+.chip.variety{width: 49%;}
+
+.chip.score{ width: 48%;}
+
+.farm-profile-section .spacer-100, #intro-coffee .spacer-100, #coperativa .spacer-100{ padding: 30px 0;}
+
+.farm-profile-section{padding: 0 40px;}
+
+#cadastre-se {padding: 80px 40px;}
+
+.farm-profile-card .farmer-name{font-size: 1.5rem; line-height: 1.7rem;}
+
+a.btn-main{padding: 10px 40px;}
+
+#cadastre-se p{width: 80%;margin: 5px auto 30px;}
+
+#intro-coffee .btn-main, #cadastre-se .btn-main{width: 200px;}
+
+.farm-profile-section .btn-main{width: initial;}
+
+ }
 
     @media(max-width: 1024px){  
 
-        #mainmenu{ margin-top: 15px;  } 
+#mainmenu{ margin-top: 15px;  } 
 
-        header.transparent .container{ padding-left: 15px; padding-right: 15px; max-width: 100% !important;}
+header.transparent .container{ padding-left: 15px; padding-right: 15px; max-width: 100% !important;}
 
-        .essencias-bg{ width: 100%; }
+.essencias-bg{ width: 100%; }
 
-       
+.chip.variety{width: 48%;}
 
+.chip.score{ width: 48%;}
+
+.logo-b {width: 350px;}
+
+#cadastre-se p{width: 90%;margin: 5px auto 30px;}
     }
   
 
@@ -19030,7 +19062,27 @@ a.btn-main{ width: 50%; }
 
 #plataforma .btn-main, a.btn-main{width: 100%;}
 
-#background-mapa h2{ width: 80%;margin: auto;margin-bottom: 20px;}   
+#background-mapa h2{ width: 80%;margin: auto;margin-bottom: 20px;}  
+
+#coperativa h2 {margin-bottom: 15px;} 
+
+.farm-profile-section h2{margin-bottom: -10px;} 
+
+ .logo-b{ width: 300px; }
+
+ .farm-profile-card .photo-area{ flex: none;width: 100%;}
+
+ .farm-profile-card .photo-area img{ height: auto;}
+
+ .farm-profile-card .top-section{display: block; margin-bottom: -12px;}
+
+ .farm-profile-card .side-panel{margin-top: 10px;}
+
+ .farm-profile-card .chip.variety {width: 29%;}
+
+.farm-profile-card .chip.score{width: 20%;}
+
+.farm-profile-card .chip.process{width: 48%;}
 
 }
 
@@ -19058,12 +19110,31 @@ header.transparent .container{padding-top: 12px;}
 
 #hero-slider .col-md-6{ width: 100%;}
 
+.chip.process{width: 33%;}
+
+.chip.variety{width: 22%;}
+
+.chip.score{ width: 40%;}
+
+#coperativa .spacer-100 {padding:0;padding-bottom: 40px;}
+
+#intro-coffee .spacer-100 {padding:0; padding-top: 40px;}
+
+ .farm-profile-card .chip.variety {width: 54%;}
+
+.farm-profile-card .chip.score{width: 43%;}
+
+.farm-profile-card .chip.process{width: 100%;}
+
+.farm-profile-card .top-section{padding: 15px;}
+
+.farm-profile-card .about-section{padding: 30px 15px 15px;}
+
+.farm-profile-card .farmer-name {font-size: 1.2rem;line-height: 1.5rem;}
+
+
+
  }
-
-
- .logo-b{ width: 400px; }
-
-
 
 
  
