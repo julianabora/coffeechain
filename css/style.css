@@ -18938,6 +18938,7 @@ header.header-mobile #logo .logo-2{width: 180px;}
       margin: 0;
     }
 
+.logo-b {width: 350px;}
 
 @media(max-width: 1300px){  
 
@@ -18985,10 +18986,10 @@ header.transparent .container{ padding-left: 15px; padding-right: 15px; max-widt
 
 @media(max-width: 991px){ 
 
- .language-switcher .itens{ right: 3%;}
+ .language-switcher .itens{ right: 5%;}
 #mainmenu.menu_side_area{position: absolute; right: 23%;}
 
-.language-switcher .itens{ top: 20px;}
+.language-switcher .itens{ top: 14px;}
 
 section{padding: 40px 0 40px 0;}
 
