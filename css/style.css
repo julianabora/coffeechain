@@ -18081,9 +18081,7 @@ background-color: #1a4934;
      transition: background-color 0.5s ease-in-out;
 }
 
- header .logo-2{ width: 150px;}
-
-
+ 
  .agro-card {
       background: #ffffff;
       border-radius: 24px;
@@ -18906,6 +18904,8 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 1) 23%, rgba(0, 0, 0, 0.05) 100
 
 #cadastre-se h2{ font-size: 50px; line-height: 52px;}
 
+
+header.header-mobile #logo .logo-2{width: 180px;}
 
 .timeline {
       display: flex;
