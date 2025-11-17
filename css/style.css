@@ -1025,6 +1025,7 @@ header:not(.header-mobile) #mainmenu>li:hover ul.mega {
     color: #fff;
     margin-left: 20px;
     padding-top: 2px;
+    position: relative;
 }
 
 .rtl #menu-btn {
@@ -18479,8 +18480,8 @@ background: #fff;
     border: none;
     font-weight: bold;
     color: #1b4934;
+        line-height: 40px;
 }
- }
 
 
 /* Responsivo */
@@ -19086,6 +19087,8 @@ a.btn-main{ width: 50%; }
 .farm-profile-card .chip.score{width: 20%;}
 
 .farm-profile-card .chip.process{width: 48%;}
+
+#hero-slider .btn-main { padding: 10px 0; line-height: 40px;}
 
 }
 
