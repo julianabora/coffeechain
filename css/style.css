@@ -1025,6 +1025,7 @@ header:not(.header-mobile) #mainmenu>li:hover ul.mega {
     color: #fff;
     margin-left: 20px;
     padding-top: 2px;
+    top: 6px;
     position: relative;
 }
 
